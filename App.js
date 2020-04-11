@@ -1,19 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Navigations from './app/navigations/Navigations'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>5 tenedores</Text>
-    </View>
+    <Navigations/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
